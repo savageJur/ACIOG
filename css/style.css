@@ -268,8 +268,10 @@
 
     .navbar.navbar-expand-lg .navbar-toggler {
         padding: 10px 20px;
-        border: 1px solid var(--bs-primary) !important;
         color: var(--bs-primary);
+        border: none;          /* Remove the border */
+        outline: none;         /* Remove the outline */
+        box-shadow: none;
     }
 
     .navbar-light .navbar-collapse {
@@ -914,6 +916,11 @@
 
 @media (max-width: 576px) {
 
+    /*.navbar-toggler{*/
+    /*    width: 25px;*/
+    /*    height: 25px;*/
+    /*}*/
+
 /*    !* Reduce carousel height *!*/
     .carousel-header .carousel-inner .carousel-item {
         min-height: 90vh;
@@ -948,8 +955,8 @@
     .carousel-header p {
         font-size: 0.95rem!important;
         line-height: 2.0rem!important;
-        margin-top: 10%!important;
-        margin-bottom: 36%!important;
+        margin-top: 15%!important;
+        margin-bottom: 38%!important;
     }
 
 /*    !* Button *!*/
