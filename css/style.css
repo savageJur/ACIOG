@@ -908,5 +908,64 @@
 
 
 
+/* ===============================
+   MOBILE OPTIMIZATION (iPhone 5+)
+   =============================== */
 
-   
+@media (max-width: 576px) {
+
+/*    !* Reduce carousel height *!*/
+    .carousel-header .carousel-inner .carousel-item {
+        min-height: 90vh;
+    }
+
+    /* Improve caption spacing */
+    .carousel-header .carousel-caption {
+        padding: 10px;
+    }
+
+/*    !* Headings *!*/
+
+
+
+    .carousel-header h1.display-1 {
+        font-size: 1.6rem;
+        line-height: 1.2;
+        margin-bottom: 15px;
+    }
+
+
+
+
+    .carousel-header h4,
+    .carousel-header h5 {
+        font-size: 0.9rem;
+        margin-bottom: 20px!important;
+        letter-spacing: 1px;
+    }
+
+/*    !* Paragraph text *!*/
+    .carousel-header p {
+        font-size: 0.95rem!important;
+        line-height: 2.0rem!important;
+        margin-top: 10%!important;
+        margin-bottom: 36%!important;
+    }
+
+/*    !* Button *!*/
+    .carousel-header .btn {
+        padding: 10px 24px;
+        font-size: 0.85rem;
+    }
+
+/*    !* Center controls better *!*/
+    .carousel-header .carousel-control-prev-icon,
+    .carousel-header .carousel-control-next-icon {
+        width: 2.5rem!important;
+        height: 2.5rem!important;
+        margin-top: 0;
+    }
+
+
+}
+
